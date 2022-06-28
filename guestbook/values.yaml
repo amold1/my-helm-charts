@@ -1,0 +1,12 @@
+name: guestbook-ui
+namespace: default
+deployment:
+  replicas: 2
+  image:
+    name: gcr.io/heptio-images/ks-guestbook-demo
+    version: 0.2
+  containerport: 80
+service:
+  port: 80
+  targetport: 80
+  type: LoadBalancer
