@@ -3,6 +3,16 @@ entries:
   guestbook:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-06-28T19:06:33.663283-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 76b70a1317b51ce280928d6093a5ae5637676f76e1e7bcac13a3238547328e12
+    name: guestbook
+    type: application
+    urls:
+    - https://github.com/amold1/my-helm-charts/releases/download/guestbook-0.1.1/guestbook-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-06-28T18:52:17.338534-04:00"
     description: A Helm chart for Kubernetes
     digest: bc9f67f3594a436947edcbfd7ef80f8971c24694badd55984581f73b1bb10a77
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/amold1/my-helm-charts/releases/download/guestbook-0.1.0/guestbook-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-28T18:52:17.338548-04:00"
+generated: "2022-06-28T19:06:33.66331-04:00"
