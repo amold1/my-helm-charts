@@ -1,4 +1,4 @@
-name: guestbook-ui
+name: guestbook_ui
 namespace: default
 deployment:
   replicas: 2
